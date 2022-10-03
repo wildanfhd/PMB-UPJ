@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="//www.upj.ac.id/web/templates/assets/images/favicon.png">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Prosedur & Biaya Pendaftaran | Universitas Pembangunan Jaya</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="border border-bottom-2 bg-light sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom fw-bold">
+            <div class="col-sm-3">
+                <a class="navbar-brand" href="#"><img class="img-responsive" src="https://www.upj.ac.id/upload/module/logo/logo2.png" alt="Logo UPJ" style="width: 150px; margin-right: 6rem;"></a>
+
+            <!-- Reponsive Hamburger Menu-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+
+            <!-- Nav Bar -->
+            <div class="col-sm-6">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Program Studi
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Informatika</a>
+                        <a class="dropdown-item" href="#">Akuntansi</a>
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="pendaftaran.html">Pendaftaran</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="moto-section d-flex flex-column">
+                <h18 class="moto-a d-flex justify-content-end" style="color: #0082C8;padding-right: 1rem;">INTEGRITY</h18>    
+            
+                <h18 class="moto-b d-flex justify-content-end" style="color: #077B48;padding-right: 1rem;">PROFESSIONALISM</h18>    
+            
+                <h18 class="moto-c d-flex justify-content-end" style="color: #EE1C24;padding-right: 1rem;">ENTREPRENEURSHIP</h18>
+                </div>
+            </div>
+        </nav>
+        </div>
+
+        <!-- Background Image -->
+        <header class="pend-bg text-center">
+          <div class="text-hero container fw-bold">
+            <h1>Pendaftaran <br />Universitas Pembangunan Jaya</h1>
+            <!-- <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.  amet,
+              Pellentesque convallis laoreet tellus pellentesquscing elit.  amet, Aliquam id tempus volutpat varius vitae turpis eget
+            </p> -->
+          </div>
+        </header>
+
+        <!-- Content -->
+        <div class="container about-card">  
+          <h4 class="judul fw-bold" style="margin: 20px 0 0;";>Prosedur & Biaya Pendaftaran</h4>
+          <hr>
+          <p class="fw-bold">
+            Prosedur dan Persyaratan pendaftaran
+          </p>
+          <p class="about-content">
+            <span class="fw-bold">1. Proses Pendaftaran</span>
+            <br>
+            Pendaftaran online klik link berikut : 
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pendaftaranModal">Pendaftaran Online</button>
+          </p>
+
+          <!-- Modal Section -->
+          <div class="modal fade" id="pendaftaranModal" tabindex="-1" role="dialog" aria-labelledby="pendaftaranModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title fw-bold" id="pendaftaranModalLabel">Form Pendaftaran</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    <b>Jalur Pendaftaran anda</b>
+                    : Tahun Akademik 2023/2024 - PMB Reguler Ujian Saringan Masuk Gelombang 1 - PMB - Reguler Ujian Saringan Masuk Gelombang 1 (Reguler)
+                  </p>
+                  <hr>
+                  <h5 class="fw-bold">Identitas Anda</h5>
+                  <form>
+                    <div class="row">
+                        <!-- Nama Lengkap -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="nama-lengkap" class="col-form-label">Nama Lengkap</label>
+                            <span class="text-danger">*</span>
+                            <input type="text" class="form-control" id="nama-lengkap" placeholder="Masukkan Nama Lengkap">
+                          </div>
+                        </div>
+                      
+                        <!-- Jenis Kelamin -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="jenis-kelamin" class="col-form-label">Jenis Kelamin</label>
+                            <span class="text-danger">*</span>
+                            <select class="form-select" aria-label="Default select example" >
+                              <option selected></option>
+                              <option value="1">Laki-laki</option>
+                              <option value="2">Perempuan</option>
+                            </select>
+                          </div>
+                        </div>
+
+                      <!-- No HP-->
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="no-hp" class="col-form-label">No.HP</label>
+                          <span class="text-danger">*</span>
+                          <input type="text" class="form-control" id="no-hp" placeholder="08**********">
+                        </div>                        
+                      </div>
+
+                      <!-- Alamat Email -->
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="alamat-email" class="col-form-label">Alamat Email</label>
+                          <span class="text-danger">*</span>
+                          <input type="text" class="form-control" id="alamat-email" placeholder="example@address.com">
+                        </div>
+                      </div>
+
+                      <!-- Tanggal Lahir -->
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="tanggal-lahir" class="col-form-label">Tanggal Lahir</label>
+                          <span class="text-danger">*</span>
+                          <input type="text" class="form-control" id="tanggal-lahir" placeholder="DD-MM-YYYY">
+                        </div>
+                      </div>
+
+                      <!-- Tempat Lahir -->
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="tempat-lahir" class="col-form-label">Tempat Lahir</label>
+                          <span class="text-danger">*</span>
+                          <input type="text" class="form-control" id="tempat-lahir" placeholder="Tempat Lahir">
+                        </div>
+                      </div>
+
+                      <!-- Kewarganegaraan -->
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="idnegara" class="col-form-label">
+                            Kewarganegaraan
+                          </label>
+                          <span class="text-danger">*</span>
+                          <select class="form-select" aria-label="Default select example">
+                            <option value="AFG" selected="">Afganistan</option>
+                            <option value="ZAF">Afrika Selatan</option>
+                            <option value="CAF">Afrika Tengah, Republik</option>
+                            <option value="ALA">Åland, Kepulauan</option>
+                            <option value="ALB">Albania</option>
+                            <option value="DZA">Aljazair</option>
+                            <option value="USA">Amerika Serikat</option>
+                            <option value="AND">Andorra</option>
+                            <option value="AGO">Angola</option>
+                            <option value="AIA">Anguilla</option>
+                            <option value="ATA">Antarktika</option>
+                            <option value="ATG">Antigua dan Barbuda</option>
+                            <option value="ANT">Antillen Belanda</option>
+                            <option value="SAU">Arab Saudi</option>
+                            <option value="ARG">Argentina</option>
+                            <option value="ARM">Armenia</option>
+                            <option value="ABW">Aruba</option>
+                            <option value="AUS">Australia</option>
+                            <option value="AUT">Austria</option>
+                            <option value="AZE">Azerbaijan</option>
+                            <option value="BHS">Bahama</option>
+                            <option value="BHR">Bahrain</option>
+                            <option value="BGD">Bangladesh</option>
+                            <option value="BRB">Barbados</option>
+                            <option value="NLD">Belanda</option>
+                            <option value="BLR">Belarus</option>
+                            <option value="BEL">Belgia</option>
+                            <option value="BLZ">Belize</option>
+                            <option value="BEN">Benin</option>
+                            <option value="BMU">Bermuda</option>
+                            <option value="BTN">Bhutan</option>
+                            <option value="BOL">Bolivia</option>
+                            <option value="BIH">Bosnia dan Herzegovina</option>
+                            <option value="BWA">Botswana</option>
+                            <option value="BVT">Bouvet, Pulau</option>
+                            <option value="BRA">Brasil</option>
+                            <option value="GBR">Britania Raya</option>
+                            <option value="BRN">Brunei</option>
+                            <option value="BGR">Bulgaria</option>
+                            <option value="BFA">Burkina Faso</option>
+                            <option value="BDI">Burundi</option>
+                            <option value="CYM">Cayman, Kepulauan</option>
+                            <option value="CZE">Ceko, Republik</option>
+                            <option value="TCD">Chad</option>
+                            <option value="CHL">Chili</option>
+                            <option value="CCK">Cocos (Keeling), Kepulauan</option>
+                            <option value="COK">Cook, Kepulauan</option>
+                            <option value="DNK">Denmark</option>
+                            <option value="DJI">Djibouti</option>
+                            <option value="DMA">Dominika</option>
+                            <option value="DOM">Dominika, Republik</option>
+                            <option value="ECU">Ekuador</option>
+                            <option value="SLV">El Salvador</option>
+                            <option value="ERI">Eritrea</option>
+                            <option value="EST">Estonia</option>
+                            <option value="ETH">Ethiopia</option>
+                            <option value="FLK">Falkland, Kepulauan</option>
+                            <option value="FRO">Faroe, Kepulauan</option>
+                            <option value="FJI">Fiji</option>
+                            <option value="PHL">Filipina</option>
+                            <option value="FIN">Finlandia</option>
+                            <option value="GAB">Gabon</option>
+                            <option value="GMB">Gambia</option>
+                            <option value="GEO">Georgia</option>
+                            <option value="SGS">Georgia Selatan dan Kepulauan Sandwich Selatan</option>
+                            <option value="GHA">Ghana</option>
+                            <option value="GIB">Gibraltar</option>
+                            <option value="GRL">Greenland</option>
+                            <option value="GRD">Grenada</option>
+                            <option value="GLP">Guadeloupe</option>
+                            <option value="GUM">Guam</option>
+                            <option value="GTM">Guatemala</option>
+                            <option value="GGY">Guernsey</option>
+                            <option value="GIN">Guinea</option>
+                            <option value="GNB">Guinea-Bissau</option>
+                            <option value="GNQ">Guinea Khatulistiwa</option>
+                            <option value="GUY">Guyana</option>
+                            <option value="GUF">Guyana Perancis</option>
+                            <option value="HTI">Haiti</option>
+                            <option value="HMD">Heard dan Kepulauan McDonald, Pulau</option>
+                            <option value="HND">Honduras</option>
+                            <option value="HUN">Hongaria</option>
+                            <option value="HKG">Hong Kong</option>
+                            <option value="IND">India</option>
+                            <option value="IDN">Indonesia</option>
+                            <option value="IRQ">Irak</option>
+                            <option value="IRN">Iran</option>
+                            <option value="IRL">Irlandia, Republik</option>
+                            <option value="ISL">Islandia</option>
+                            <option value="ISR">Israel</option>
+                            <option value="ITA">Italia</option>
+                            <option value="JAM">Jamaika</option>
+                            <option value="JPN">Jepang</option>
+                            <option value="DEU">Jerman</option>
+                            <option value="JEY">Jersey</option>
+                            <option value="NCL">Kaledonia Baru</option>
+                            <option value="KHM">Kamboja</option>
+                            <option value="CMR">Kamerun</option>
+                            <option value="CAN">Kanada</option>
+                            <option value="KAZ">Kazakhstan</option>
+                            <option value="KEN">Kenya</option>
+                            <option value="UMI">Kepulauan Terluar Kecil Amerika Serikat</option>
+                            <option value="KGZ">Kirgizstan</option>
+                            <option value="KIR">Kiribati</option>
+                            <option value="COL">Kolombia</option>
+                            <option value="COM">Komoro</option>
+                            <option value="COG">Kongo, Republik</option>
+                            <option value="COD">Kongo, Republik Demokratik</option>
+                            <option value="KOR">Korea, Republik</option>
+                            <option value="PRK">Korea, Republik Rakyat Demokratik</option>
+                            <option value="CRI">Kosta Rika</option>
+                            <option value="HRV">Kroasia</option>
+                            <option value="CUB">Kuba</option>
+                            <option value="KWT">Kuwait</option>
+                            <option value="LAO">Laos</option>
+                            <option value="LVA">Latvia</option>
+                            <option value="LBN">Lebanon</option>
+                            <option value="LSO">Lesotho</option>
+                            <option value="LBR">Liberia</option>
+                            <option value="LBY">Libya</option>
+                            <option value="LIE">Liechtenstein</option>
+                            <option value="LTU">Lituania</option>
+                            <option value="LUX">Luksemburg</option>
+                            <option value="MDG">Madagaskar</option>
+                            <option value="MAC">Makau</option>
+                            <option value="MKD">Makedonia, Republik</option>
+                            <option value="MDV">Maladewa</option>
+                            <option value="MWI">Malawi</option>
+                            <option value="MYS">Malaysia</option>
+                            <option value="MLI">Mali</option>
+                            <option value="MLT">Malta</option>
+                            <option value="IMN">Man, Pulau</option>
+                            <option value="MNP">Mariana Utara, Kepulauan</option>
+                            <option value="MAR">Maroko</option>
+                            <option value="MHL">Marshall, Kepulauan</option>
+                            <option value="MTQ">Martinik</option>
+                            <option value="MRT">Mauritania</option>
+                            <option value="MUS">Mauritius</option>
+                            <option value="MYT">Mayotte</option>
+                            <option value="MEX">Meksiko</option>
+                            <option value="EGY">Mesir</option>
+                            <option value="FSM">Mikronesia, Federasi</option>
+                            <option value="MDA">Moldova</option>
+                            <option value="MCO">Monako</option>
+                            <option value="MNG">Mongolia</option>
+                            <option value="MNE">Montenegro</option>
+                            <option value="MSR">Montserrat</option>
+                            <option value="MOZ">Mozambik</option>
+                            <option value="MMR">Myanmar</option>
+                            <option value="NAM">Namibia</option>
+                            <option value="CXR">Natal, Pulau</option>
+                            <option value="NRU">Nauru</option>
+                            <option value="NPL">Nepal</option>
+                            <option value="NER">Niger</option>
+                            <option value="NGA">Nigeria</option>
+                            <option value="NIC">Nikaragua</option>
+                            <option value="NIU">Niue</option>
+                            <option value="NFK">Norfolk, Pulau</option>
+                            <option value="NOR">Norwegia</option>
+                            <option value="OMN">Oman</option>
+                            <option value="PAK">Pakistan</option>
+                            <option value="PLW">Palau</option>
+                            <option value="PSE">Palestina</option>
+                            <option value="PAN">Panama</option>
+                            <option value="CIV">Pantai Gading</option>
+                            <option value="PNG">Papua Nugini</option>
+                            <option value="PRY">Paraguay</option>
+                            <option value="FRA">Perancis</option>
+                            <option value="ATF">Perancis Selatan, Teritori</option>
+                            <option value="PER">Peru</option>
+                            <option value="PCN">Pitcairn, Kepulauan</option>
+                            <option value="POL">Polandia</option>
+                            <option value="PYF">Polinesia Perancis</option>
+                            <option value="PRT">Portugal</option>
+                            <option value="PRI">Puerto Riko</option>
+                            <option value="QAT">Qatar</option>
+                            <option value="REU">Réunion</option>
+                            <option value="ROU">Rumania</option>
+                            <option value="RUS">Rusia</option>
+                            <option value="RWA">Rwanda</option>
+                            <option value="ESH">Sahara Barat</option>
+                            <option value="BLM">Saint-Barthélemy</option>
+                            <option value="SHN">Saint Helena, Ascension, dan Tristan da Cunha</option>
+                            <option value="KNA">Saint Kitts dan Nevis</option>
+                            <option value="LCA">Saint Lucia</option>
+                            <option value="MAF">Saint Martin (Perancis)</option>
+                            <option value="SPM">Saint Pierre dan Miquelon</option>
+                            <option value="VCT">Saint Vincent dan Grenadines</option>
+                            <option value="WSM">Samoa</option>
+                            <option value="ASM">Samoa Amerika</option>
+                            <option value="IOT">Samudra Hindia Britania, Teritori</option>
+                            <option value="SMR">San Marino</option>
+                            <option value="STP">Sao Tome dan Principe</option>
+                            <option value="NZL">Selandia Baru</option>
+                            <option value="SEN">Senegal</option>
+                            <option value="SRB">Serbia</option>
+                            <option value="SYC">Seychelles</option>
+                            <option value="SLE">Sierra Leone</option>
+                            <option value="SGP">Singapura</option>
+                            <option value="CYP">Siprus</option>
+                            <option value="SVN">Slovenia</option>
+                            <option value="SVK">Slowakia</option>
+                            <option value="SLB">Solomon, Kepulauan</option>
+                            <option value="SOM">Somalia</option>
+                            <option value="ESP">Spanyol</option>
+                            <option value="LKA">Sri Lanka</option>
+                            <option value="SDN">Sudan</option>
+                            <option value="SYR">Suriah</option>
+                            <option value="SUR">Suriname</option>
+                            <option value="SJM">Svalbard dan Jan Mayen</option>
+                            <option value="SWZ">Swaziland</option>
+                            <option value="SWE">Swedia</option>
+                            <option value="CHE">Swiss</option>
+                            <option value="TWN">Taiwan</option>
+                            <option value="TJK">Tajikistan</option>
+                            <option value="CPV">Tanjung Verde</option>
+                            <option value="TZA">Tanzania</option>
+                            <option value="THA">Thailand</option>
+                            <option value="TLS">Timor Leste</option>
+                            <option value="CHN">Tiongkok, Republik Rakyat</option>
+                            <option value="TGO">Togo</option>
+                            <option value="TKL">Tokelau</option>
+                            <option value="TON">Tonga</option>
+                            <option value="TTO">Trinidad dan Tobago</option>
+                            <option value="TUN">Tunisia</option>
+                            <option value="TUR">Turki</option>
+                            <option value="TKM">Turkmenistan</option>
+                            <option value="TCA">Turks dan Caicos, Kepulauan</option>
+                            <option value="TUV">Tuvalu</option>
+                            <option value="UGA">Uganda</option>
+                            <option value="UKR">Ukraina</option>
+                            <option value="ARE">Uni Emirat Arab</option>
+                            <option value="URY">Uruguay</option>
+                            <option value="UZB">Uzbekistan</option>
+                            <option value="VUT">Vanuatu</option>
+                            <option value="VAT">Vatikan</option>
+                            <option value="VEN">Venezuela</option>
+                            <option value="VNM">Vietnam</option>
+                            <option value="VIR">Virgin Amerika Serikat, Kepulauan</option>
+                            <option value="VGB">Virgin Britania Raya, Kepulauan</option>
+                            <option value="WLF">Wallis dan Futuna</option>
+                            <option value="WNA">WNA</option>
+                            <option value="YEM">Yaman</option>
+                            <option value="JOR">Yordania</option>
+                            <option value="GRC">Yunani</option>
+                            <option value="ZMB">Zambia</option>
+                            <option value="ZWE">Zimbabwe</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <!-- NIK / No.KTP -->
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="nik" class="col-form-label">
+                            NIK / No.KTP
+                          </label>
+                          <span class="text-danger">*</span>
+                          <input type="text" class="form-control" id="nik" placeholder="Minimal 16 Digit">
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </form>
+
+                  <!--Section : Asal Sekolah-->
+                  <h5 class="fw-bold">Asal Sekolah</h5>
+                  <form>
+                    <div class="row">
+                        <!-- Provinsi -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="provinsi" class="col-form-label">Provinsi</label>
+                            <span class="text-danger">*</span>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected></option>
+                              <option value="1">Banten</option>
+                              <option value="2">DKI Jakarta</option>
+                              <option value="3">Jawa Barat</option>
+                              <option value="4">Jawa Tengah</option>
+                              <option value="5">Jawa Timur</option>
+                            </select>
+                          </div>
+                        </div>
+                      
+                        <!-- Kabupaten / Kota -->
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="kabupaten-kota" class="col-form-label">Kabupaten / Kota</label>
+                            <span class="text-danger">*</span>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected></option>
+                              <option value="1">Kabupaten Lebak</option>
+                              <option value="2">Kabupaten Pandeglang</option>
+                              <option value="3">Kabupaten Serang</option>
+                              <option value="4">Kabupaten Tangerang</option>
+                              <option value="5">Kota Cilegon</option>
+                              <option value="6">Kota Serang</option>
+                              <option value="7">Kota Tangerang</option>
+                              <option value="8">Kota Tangerang Selatan</option>
+                            </select>
+                          </div>
+                        </div>
+
+                      <!-- Jenis Sekolah -->
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="jenis-sekolah" class="col-form-label">Jenis Sekolah</label>
+                          <span class="text-danger">*</span>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected></option>
+                            <option value="1">SMA</option>
+                            <option value="2">SMK</option>
+                            <option value="3">MAN</option>
+                            <option value="4">SMKS</option>
+                          </select>
+                        </div>                        
+                      </div>
+
+                      <!-- NPSN / Nama Sekolah -->
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="npsn-namsek" class="col-form-label">NPSN / Nama Sekolah</label>
+                          <span class="text-danger">*</span>
+                          <input type="text" class="form-control" id="npsn-namsek" placeholder="NPSN / Nama Sekolah">
+                        </div>
+                      </div>
+                    
+
+                      <!-- Jurusan Sekolah -->
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="jurusan-sekolah" class="col-form-label">Jurusan Sekolah (Ex : IPA, IPS)</label>
+                          <span class="text-danger">*</span>
+                          <input type="text" class="form-control" id="jurusan-sekolah">
+                        </div>
+                      </div>
+
+                      <!-- Tahun Lulus -->
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="tahun-lulus" class="col-form-label">Tahun Lulus</label>
+                          <span class="text-danger">*</span>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected></option>
+                            <option value="2012" selected>2012</option>
+                            <option value="2013">2013</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                          </select>
+                        </div>                        
+                      </div>
+                      </div>
+                      <hr>
+                  </form>
+
+                  <!-- Pemilihan Program Studi -->
+                  <h5 class="fw-bold">Pilihan Program Studi</h5>
+                  <form>
+                    <div class="row">
+                        <!-- Pilihan Prodi -->
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label for="provinsi" class="col-form-label">Pilihan Prodi</label>
+                            <span class="text-danger">*</span>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected></option>
+                              <option value="AKT">S1 - Akuntansi</option>
+                              <option value="ARS">S1 - Arsitektur</option>
+                              <option value="DKV">S1 - Desain Komunikasi Visual</option>
+                              <option value="DP">S1 - Desain Produk</option>
+                              <option value="KOM">S1 - Ilmu Komunikasi</option>
+                              <option value="INF">S1 - Informatika</option>
+                              <option value="MNJ">S1 - Manajemen</option>
+                              <option value="PSI">S1 - Psikologi</option>
+                              <option value="SIF">S1 - Sistem Informasi</option>
+                              <option value="TSP">S1 - Teknik Sipil</option>
+                            </select>
+                          </div>
+                        </div>
+                    </div>
+                  </form>
+                </div>
+              
+
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Kembali</button>
+                  <button class="btn btn-primary" data-bs-target="#asalSekolahModal" data-bs-toggle="modal" data-bs-dismiss="modal" data-dismiss="modal">Daftar Sekarang</button>
+                </div>
+            </div>
+              </div>
+            </div>
+
+          <p class="about-content">
+            <span class="fw-bold">2. Biaya Pendaftaran sebesar Rp. 200.000,- (dua ratus ribu rupiah)</span>
+            <br>
+            Pembayaran dapat dilakukan melalui Shopee, Tokopedia, dan BNI dengan nomor VA yang tertera pada aplikasi MyUPJ saat pendaftaran.
+          </p>
+          <p class="about-content fw-bold fst-italic">
+            <span class="fw-bold">3. Konfirmasi</span>
+            <br>
+            Kirim bukti pembayaran disertai nama calon mahasiswa melalui email ke info@upj.ac.id
+          </p>
+          <p class="about-content">
+            <span class="fw-bold">4. Proses Seleksi</span>
+            <br>
+            Panitia Penerimaan Mahasiswa Baru (PMB) akan menghubungi calon mahasiswa melalui telepon atau email mengenai proses seleksi melalui jalur rapor atau Ujian Saringan Masuk UPJ.
+          </p>
+          <p class="about-content fw-bold">(Tanpa bukti setoran, berkas tidak dapat diproses)</p>
+          <p class="about-content">
+            <span class="fw-bold">5. Lokasi Kampus</span>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                  <iframe width="750" height="277" id="gmap_canvas" src="https://maps.google.com/maps?q=Universitas%20Pembangunan%20Jaya&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:277px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width: 750px;}</style>
+              </div>
+            </div>
+            <br>
+            Kampus UPJ sangat MUDAH diakses melalui JORR, lanjutkan ke toll Bintaro / BSD, keluar di Gerbang Keluar Pondok Ranji / Bintaro (Ambil beberapa lajur / gerbang di sebelah kiri), dan belok kiri ambil arah Bintaro Jaya Xchange. Lewati flyover mengarah Sawah Baru, lewati jembatan dan Kampus UPJ terletak di kiri jalan.
+          </p>
+          <!-- End of Content Section-->
+        </div>
+
+        <!-- Footer Section -->
+        <div class="container-fluid" style="background-color: #1c2331;">
+          <footer class="text-lg-start text-white">
+
+            <!-- * Social Media Section-->
+            <section class="d-flex justify-content-between p-4 rounded" style="background-color: #0082C8;">
+
+              <!-- Left Side -->
+              <div class="me-5">
+                <span>Get Connected with Our Social Media</span>
+              </div>
+
+              <!-- Right Side -->
+              <div>
+                <a href="https://www.facebook.com/universitas.pembangunan.jaya" class="socmed-icon text-white me-4">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://twitter.com/upj_bintaro" class="socmed-icon text-white me-4">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/upj_bintaro/" class="socmed-icon text-white me-4">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/user/UPJBIntaro" class="socmed-icon text-white me-4">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </section>
+            <!-- End of Social Media Section -->
+
+            <div class="pengumuman">
+              <div class="container">
+
+              </div>
+            </div>
+
+            <!-- Section Links -->
+            <section class="">
+              <div class="container text-center text-md-start mt-5">
+                <!-- Grid Row -->
+                <div class="row mt-3">
+
+                  <!-- Grid Column -->
+                  <div class="col-sm-4 col-md-5 mx-auto mb-2">
+  
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold">Contact Us</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #0082C8; height: 2px;">
+                    <br>
+                    <a href="home.html"><img src="https://www.upj.ac.id/web/templates/assets/images/logo-footer.png" class="footer-img mb-3 img-fluid" alt=""></a>
+                    <p><i class="fa fa-map-marker mr-3"></i> Jl. Cendrawasih Raya Blok B7/P Bintaro Jaya, Sawah Baru, Ciputat, Tangerang Selatan 15413</p>
+                    <p><i class="fa fa-phone mr-3"></i> (021) 745 5555 - (021) 2986 1525</p>
+                  </div>
+  
+                  <!-- Grid Column -->
+                  <div class="col-sm-4 col-md-4 mx-auto mb-2">
+                    <h6 class="text-uppercase fw-bold">Link To Jaya Group</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #0082C8; height: 2px;">
+                    <p class="jaya-group">
+                      <a href="http://www.pembangunanjaya.id/id-id/" class="jaya-group">Pembangunan Jaya</a>
+                    </p>
+                    <p>
+                      <a href="http://pendidikanjaya.or.id/" class="jaya-group">Yayasan Pendidikan Jaya</a>
+                    </p>
+                    <p>
+                      <a href="http://margajaya.org/" class="jaya-group">Yayasan Marga Pembangunan Jaya</a>
+                    </p>
+                    <p>
+                      <a href="http://jayaraya.org/" class="jaya-group">Yayasan Pembangunan Jaya Raya</a>
+                    </p>
+                  </div>
+  
+                  <!-- Grid Column -->
+                  <div class="col-sm-4 col-md-3 mx-auto mb-md-0 mb-2">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold">Tentang UPJ</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px"/>
+                    <p>
+                      <a class="tentang-upj" href="https://www.upj.ac.id/static-page/2/sambutan-rektor">Sambutan Rektor</a>
+                    </p>
+                    <p>
+                      <a class="tentang-upj" href="https://www.upj.ac.id/static-page/41/jajaran-pimpinan">Jajaran Pimpinan</a>
+                    </p>
+                    <p>
+                      <a class="tentang-upj" href="https://www.upj.ac.id/#">Lembaga</a>
+                    </p>
+                    <p>
+                      <a class="tentang-upj" href="https://www.upj.ac.id/#">Fasilitas</a>
+                    </p>
+                  </div>
+                  <!-- Grid Column End-->
+                </div>
+                <!-- Grid Row End-->
+              </div>
+            </section>
+            <!-- Section Links End -->
+
+          <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2022 Copyright - 
+      <a class="socmed-icon text-white" href="https://github.com/wildanfhd"
+      >Wildan</a>
+        </div>
+          <!-- Copyright -->
+
+      </footer>
+      <!-- End of Footer-->
+    </div>
+    <!-- End of -->
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

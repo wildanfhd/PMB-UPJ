@@ -1,0 +1,176 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+    /* padding-top: 0.5rem; */
+    padding-left: 2rem;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+  
+.dropdown .dropdown-menu {
+  display: none;
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+  font-size: 15px;
+}
+.navbar .navbar-nav .nav-link:hover{
+  color: #7b92be;
+}
+  
+@media screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+}
+  
+@media only screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-toggle::after {
+    border-bottom: 0.3em solid;
+    border-top: 0;
+  }
+}
+
+.navbar-custom {
+  background-color: #1c2331;
+}
+
+.main-header h2{
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+}
+
+
+  /*Background image setiap page*/
+
+  .main-bg {
+    background-image: url("../assets/img/bg-image.jpg");
+    background-size: cover;
+    padding: 310px 0 240px;
+    color: white;
+    height: 45vh;
+    opacity: 0.9;
+  }
+
+.text-hero {
+  margin-top: -70px;
+}
+
+.card {
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;  
+  height: 100%;
+}
+
+.card-title {
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.close-img img{
+  filter: grayscale(100%);
+}
+
+.page-title {
+  background-image: url("https://www.upj.ac.id/upload/module/news/img632.jpg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-responsive {
+  padding-left: 10px ;
+  
+}
+
+.socmed-icon {
+  text-decoration: none;
+}
+
+.jaya-group, .tentang-upj {
+  color: white;
+  text-decoration: none;
+}
+
+.jaya-group:hover{
+  color: #7b92be;
+}
+
+.tentang-upj:hover {
+  color: #7b92be;
+}
+
+.footer-img {
+  height: 80px;
+}
+
+/* About.html*/
+.about-content {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+.about-content p{
+  text-align: justify;
+}
+
+.judul {
+  font-size: 25px;
+}
+
+.subjudul {
+  font-size: 24px;
+}
+
+.about-img {
+  margin: 5px;
+}
+
+#img-gedung {
+  max-width: 60%; 
+  float: left; 
+}
+
+#img-logo {
+  max-width: 40%;
+  width: 200px;
+  float: right;
+}
+
+.logo-nilai {
+  width: 75px;
+  height: 75px;
+}
+
+/* informatika.html dan akuntansi.html*/
+
+.sub-title {
+  color: #000000;
+  text-decoration: none;
+}
+
+.sub-title:hover {
+  color: #7b92be;
+}
