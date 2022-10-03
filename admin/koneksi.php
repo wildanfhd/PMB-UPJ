@@ -2,13 +2,14 @@
 
 $serverName = "localhost";
 $dBUsername = "root";
-$dBPassword = "jumanji.123";
+$dBPassword = "";
 $dBName = "web22";
 
 // mysli digunakan untuk procedural PHP, pdo, dan juga OOP PHP
-$conn = mysqli_connect($serverName, $dBUsername, $dBPassword, $dBName);
+$koneksi = mysqli_connect($serverName, $dBUsername, $dBPassword, $dBName);
 
-// Kondisi jika $conn == false
-if(!$conn) {
+// Kondisi jika $koneksi== false
+if(!$koneksi) {
     die("Connection failed : " . mysqli_connect_error());
 }
+?>
