@@ -44,7 +44,7 @@
                             <button class="btn btn-warning" type="button">Detail</button>
                         </div>
                         <div class="col-6 col-xs-6 d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button">Daftar</button>
+                            <a href="insert-mahasiswa.php"><button class="btn btn-primary" type="button">Daftar</button></a>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                             <button class="btn btn-warning" type="button">Detail</button>
                         </div>
                         <div class="col-6 col-xs-6 d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button">Daftar</button>
+                        <a href="insert-mahasiswa.php"><button class="btn btn-primary" type="button">Daftar</button></a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                             <button class="btn btn-warning" type="button">Detail</button>
                         </div>
                         <div class="col-6 col-xs-6 d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button">Daftar</button>
+                        <a href="insert-mahasiswa.php"><button class="btn btn-primary" type="button">Daftar</button></a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                             <button class="btn btn-warning" type="button">Detail</button>
                         </div>
                         <div class="col-6 col-xs-6 d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button">Daftar</button>
+                        <a href="insert-mahasiswa.php"><button class="btn btn-primary" type="button">Daftar</button></a>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                             <button class="btn btn-warning" type="button">Detail</button>
                         </div>
                         <div class="col-6 col-xs-6 d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button">Daftar</button>
+                        <a href="insert-mahasiswa.php"><button class="btn btn-primary" type="button">Daftar</button></a>
                         </div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                             <button class="btn btn-warning" type="button">Detail</button>
                         </div>
                         <div class="col-6 col-xs-6 d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button">Daftar</button>
+                        <a href="insert-mahasiswa.php"><button class="btn btn-primary" type="button">Daftar</button></a>
                         </div>
                     </div>
                 </div>
@@ -184,7 +184,7 @@
                             <button class="btn btn-warning" type="button">Detail</button>
                         </div>
                         <div class="col-6 col-xs-6 d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button">Daftar</button>
+                            <button class="btn btn-primary" type="button" disabled>Daftar</button>
                         </div>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
                             <button class="btn btn-warning" type="button">Detail</button>
                         </div>
                         <div class="col-6 col-xs-6 d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button">Daftar</button>
+                            <button class="btn btn-primary" type="button" disabled>Daftar</button>
                         </div>
                     </div>
                 </div>
@@ -230,7 +230,7 @@
                             <button class="btn btn-warning" type="button">Detail</button>
                         </div>
                         <div class="col-6 col-xs-6 d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button">Daftar</button>
+                            <button class="btn btn-primary" type="button" disabled>Daftar</button>
                         </div>
                     </div>
                 </div>
@@ -254,7 +254,7 @@
                             <button class="btn btn-warning" type="button">Detail</button>
                         </div>
                         <div class="col-6 col-xs-6 d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button">Daftar</button>
+                            <button class="btn btn-primary" type="button" disabled>Daftar</button>
                         </div>
                     </div>
                 </div>
@@ -277,7 +277,7 @@
                             <button class="btn btn-warning" type="button">Detail</button>
                         </div>
                         <div class="col-6 col-xs-6 d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button">Daftar</button>
+                            <button class="btn btn-primary" type="button" disabled>Daftar</button>
                         </div>
                     </div>
                 </div>
@@ -300,7 +300,7 @@
                             <button class="btn btn-warning" type="button">Detail</button>
                         </div>
                         <div class="col-6 col-xs-6 d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button">Daftar</button>
+                            <button class="btn btn-primary" type="button" disabled>Daftar</button>
                         </div>
                     </div>
                 </div>
