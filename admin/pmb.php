@@ -21,7 +21,7 @@
         <div class="container">
         <div class="row pt-1">
             <div class="col-12">
-            <h3 class="d-flex justify-content-center mb-2 main-header">Daftar Jalur Seleksi Masuk</h3>
+            <h3 class="d-flex justify-content-center mb-2 main-header" id="jalurSeleksi">Daftar Jalur Seleksi Masuk</h3>
             <hr>
             </div>
         </div>
