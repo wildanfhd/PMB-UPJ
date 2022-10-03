@@ -25,18 +25,19 @@
         echo "<link rel='stylesheet' type='text/css' href='../styles/style.css' />";
         include "koneksi.php";
 
-        if(isset($_POST['nama_lengkap'])) {
+        if(isset($_POST['namaLengkap']) AND isset($_POST['jenisKelamin']) AND isset($_POST['nomorHP']) AND isset($_POST['alamatEmail']) AND isset($_POST['tanggalLahir']) AND isset($_POST['tempatLahir']) AND isset($_POST['kewarganegaraan']) AND isset($_POST['nikNoKtp'])) {
             // $mhsID = $_POST['mhs_id'];
-            $namaLengkap = $_POST['nama_lengkap'];
-            $jenisKelamin = $_POST['jenis_kelamin'];
-            $noHP = $_POST['no_hp'];
-            $alamatEmail = $_POST['alamat_email'];
-            $tanggalLahir = $_POST['tanggal_lahir'];
-            $tempatLahir = $_POST['tempat_lahir'];
+            $nama_lengkap = $_POST['namaLengkap'];
+            $jenis_kelamin = $_POST['jenisKelamin'];
+            $no_hp = $_POST['nomorHP'];
+            $alamat_email = $_POST['alamatEmail'];
+            $tanggal_lahir = $_POST['tanggalLahir'];
+            $tempat_lahir = $_POST['tempatLahir'];
             $kewarganegaraan = $_POST['kewarganegaraan'];
-            $nikNoKtp = $_POST['nik_noktp'];
-            $querySQL = "INSERT INTO mhsbaru('nama_lengkap', 'jenis_kelamin', 'no_hp', alamat_email', 'tanggal_lahir', 'tempat_lahir', 'kewarganegaraan', 'nik_noktp') VALUES($namaLengkap, $jenisKelamin, $noHP, $alamatEmail, $tanggalLahir, $tempatLahir, $kewarganegaraan, $nikNoKtp)";
-            $execSQL = mysqli_query($conn, $querySQL);
+            $nik_noktp = $_POST['nikNoKtp'];
+
+            $querySQL = "INSERT INTO mhsbaru('nama_lengkap', 'jenis_kelamin', 'no_hp', 'alamat_email', 'tanggal_lahir', 'tempat_lahir', 'kewarganegaraan', 'nik_noktp') VALUES('$nama_lengkap', '$jenis_kelamin', $no_hp, '$alamat_email', '$tanggal_lahir', '$tempat_lahir', '$kewarganegaraan', $nik_noktp)";
+            $execSQL = mysqli_query($koneksi, $querySQL);
         }
     ?>
 
@@ -46,7 +47,7 @@
             <p>
                 <?php
                     if($execSQL) {
-                        $lastId = mysqli_insert_id($conn);
+                        $lastId = mysqli_insert_id($koneksi);
                         echo "Data dengan ID $lastId berhasil diinput ke dalam database";
                     } else {
                         echo "Data tidak berhasil diinput ke dalam database";
